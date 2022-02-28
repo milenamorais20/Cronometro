@@ -1,0 +1,106 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(./assets/background.jfif);
+}
+
+p{
+    display: inline-block;
+    position:relative;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    font-size: 27px;
+}
+#container{
+    display: block;
+    position: relative;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 40px;
+    width: 60%;
+    height:500px;
+    text-align: center;
+    background-color:white;
+    border-radius:5%
+
+}
+#tempo{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    width: 170px;
+    border-radius: 50%;
+    
+}
+button{
+    display:inline-block;
+    background-color:#F4D9F3 ;
+    border: none;
+    width: 150px;
+    height: 30px;
+    margin-left: 18px;
+    margin-right: 18px;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-size: 17px;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+footer{
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    display: block;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+@media screen and (max-width: 1260px) {
+    button{
+        display:inline-block;
+        margin: auto;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-top: 15px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 1152px) {
+    button{
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        width: 150px;
+    }
+}
+@media screen and (max-width: 900px) {
+    button{
+        display: inline-block;
+        margin: auto;
+        margin-top: 15px;
+        margin-left: 8px;
+        margin-right: 8px;
+        width: 100px;
+    }
+}
+@media screen and (max-width: 792px) {
+    button{
+        display: block;
+        margin: auto;
+        margin-top: 15px;
+        width: 150px;
+    }
+}

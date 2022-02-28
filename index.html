@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>Cronômetro</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <link rel="icon" href="./assets/streamline-icon-time-daily-2@48x48.PNG">
+    </head>
+    <body>
+        <main>
+            <div id="container">
+
+                <div class="mudarCor">
+                    <h1>Cronômetro</h1>
+
+                    <div id="tempo">
+
+                        <p id="horas">00</p>
+                        <p class="dois pontos">:</p>
+                        <p id="minutos">00</p>
+                        <p class="dois pontos">:</p>
+                        <p id="segundos">00</p>
+
+                    </div>
+                </div>
+
+                <div class="buttons">
+
+                    <button onClick="start()">Start</button>
+                    <button onClick="pause()">Stop</button>
+                    <button onClick="save()">Save</button>
+                    <button onClick="del()">Clear</button>
+
+            
+                </div>
+
+                <ul id="mylist">
+                </ul>
+                
+            </div>
+        </main>
+        
+        <footer>By <a href="https://www.linkedin.com/in/milena-morais-8726a21aa/">Milena Morais</a></footer>
+
+        <script src="cronometro.js"></script>
+    </body>
+</html>
